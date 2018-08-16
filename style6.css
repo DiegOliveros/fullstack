@@ -1,0 +1,29 @@
+/*el ejemplo con la clase "first" está en negrita*/
+.first {
+font-weight:bold;
+}
+/* todos los elememtos con la ****clase*** done estan tachados*/
+.done{
+text-decoration:line-through;
+}
+#polite{
+	font-family:cursive;
+}
+#rude{
+	font-family: monospace;
+	text-transform: uppercase;
+}
+section p{
+	color: blue;
+}
+section > p{
+	background-color: yellow;
+
+}
+h2+p{
+	text-transform: uppercase;
+}
+h2~p{
+	border: 1px dashed black;
+}
+

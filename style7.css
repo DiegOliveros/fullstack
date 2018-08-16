@@ -1,0 +1,32 @@
+/**all elemets with the attribite "data -vegetable are given"*/
+[data-vegetable]{
+	color: green;
+}
+/*all elemets with the attribute "data -vegetable" with the */
+[data-vegetable="liquid"]{
+	background-color: goldenrod;
+}
+/*all elements with attribute "dataquality", entre otros spicy"   */
+
+[data-vegetable~="spicy"]{
+	color:red;
+}
+
+/*clasic usage for languaje section*/
+[lang|=fr]{
+	font-weight: bold;
+}
+/*all elements with attribute "dataquality", for which the value the value ends with*/
+[data-quantity$="kg"]{
+	font-weight: bold;
+}
+
+/*all elements with attribute "dataquality", for which the value the starts with "optional"   */
+[data-quantity^="optional"]{
+	opacity: 0.5;
+}
+/*all elements with attribute "data-vegetable", for which the value "not spicy" are turned back to green"   */
+
+[data-vegetable*="not spicy"]{
+	color: green;
+}

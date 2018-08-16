@@ -1,0 +1,4 @@
+[href^=http]::after{
+content: '☺';
+
+}
