@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script>
+		function calcularpreciototal(precio){
+			var impuestos=1.16;
+			var gastos= 10;
+			var preciototal = (impuestos *precio) +gastos;
+		return preciototal.toFixed(2);
+		}
+		function llamadoAFuncion() {
+			var recibePrecioTotal =calcularpreciototal(23.34);
+			console.log("precio total = "+recibePrecioTotal);
+			alert("precio total = "+recibePrecioTotal + "\n También puedes verlo en la consola!! "); 
+
+		}
+		</script>
+		<title>My Css experiment 2</title>
+		<link rel="stylesheet" href="css/style13.css">
+	</head>	
+
+	<body>
+		<p>this paragraph has a red background</p>
+		<p>this paragraph has a blue background</p>
+		<p>this paragraph has a kind of pinkt lilac background </p>
+
+		<button type="button" onclick="llamadoAFuncion()">click me</button>
+	</body>
+</html>   
+ 
