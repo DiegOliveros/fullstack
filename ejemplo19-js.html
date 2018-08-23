@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<header>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Bucles</title> 
+<script>
+var cadena ="en un lugar de la mancha de cuyo nombre no quiero acordarme....";
+var letras=cadena.split("");
+var resultado ="";
+for (indice in letras){
+
+    if(letras[indice]==='a'){  // quita las a
+        
+    continue;
+}
+if(letras[indice]==='y'){  //termina
+    break;
+}
+else {
+    resultado+=letras[indice];
+}
+alert(resultado);
+
+}
+</script>
+</header>
+<body>
+<h2>Ejemplo break</h2>>
+</body>
+</html>
